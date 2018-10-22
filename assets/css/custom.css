@@ -1,9 +1,27 @@
-header {
-    background: #A7D49B;
-}
-
-
-
 body {
     background-image: url("../images/qbkls.png");
+}
+
+header, .main-content {
+    background: #A7D49B;
+ 
+}
+
+#aretha-name {
+    color: #FFF;
+   
+    line-height: 3em;
+}
+
+.title-font {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.custom-font {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    color: #2E0219;
+}
+
+#name-title {
+    background: #4A001F;
 }
