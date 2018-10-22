@@ -1,16 +1,24 @@
+a {
+    color: inherit;
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    color: #BC0200;
+}
+
 body {
     background-image: url("../images/qbkls.png");
 }
 
-header, .main-content {
+header, .main-content, footer {
     background: #A7D49B;
  
 }
 
-#aretha-name {
-    color: #FFF;
-   
-    line-height: 3em;
+.border-bottom, .border {
+    border-color: #BC0200!important;
 }
 
 .title-font {
@@ -21,6 +29,13 @@ header, .main-content {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
     color: #2E0219;
 }
+
+#aretha-name {
+    color: #FFF;
+   
+    line-height: 3em;
+}
+
 
 #name-title {
     background: #4A001F;
