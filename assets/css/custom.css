@@ -12,12 +12,17 @@ body {
     background-image: url("../images/qbkls.png");
 }
 
-header, .main-content, footer {
+header, .main-content {
     background: #A7D49B;
  
 }
 
-.border-bottom, .border {
+footer {
+    background: #2E0219;
+    color: #FFF
+}
+
+.border-bottom, .border, .border-top {
     border-color: #BC0200!important;
 }
 
