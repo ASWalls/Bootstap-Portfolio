@@ -1,14 +1,29 @@
+/*General body styles and overrides*/
 html {
     position: relative;
     height: 100%;
 }
-
 body {
-    
     width: 100%;
     height: 100%;
+    background-image: url("../images/qbkls.png");
 }
+.wrap {/*Sets up footer*/
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+/*End body styles*/
 
+/*Custom fonts*/
+.title-font {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+}
+.custom-font {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    color: #2E0219;
+}
 a {
     color: inherit;
 }
@@ -18,72 +33,56 @@ a:visited {
 a:hover {
     color: #BC0200;
 }
-
-body {
-    background-image: url("../images/qbkls.png");
+#aretha-name {
+    color: #FFF;
+    line-height: 3em;
 }
+/*End custom fonts*/
 
+/*Custom borders*/
+.border-bottom, .border, .border-top {
+    border-color: #BC0200!important;
+}
+/*End custom borders*/
+
+/*Custom button*/
+.btn-primary {
+    background-color: #2E0219;
+}
+/*End custom button*/
+
+/*Section backgrounds*/
 header, .main-content {
     background: #A7D49B;
  
 }
+#name-title {
+    background: #4A001F;
+}
+/*End section backgrounds*/
 
+/*Portfolio card styles*/
 .card {
     background-color:transparent;
     max-width: 370px;
 }
-
 .card-title {
     color: #FFF;
     line-height: 3em;
 }
-
 .card-title-box {
-    background: #2E0219;
-    
+    background: #2E0219; 
     bottom: 50px;
 }
+/*End portfolio card styles*/
 
-.wrap {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
-}
-
+/*Footer styles*/
 footer {
     background: #2E0219;
     color: #FFF;
     height: 60px; 
 }
-
 footer p {
     margin-bottom: 0px;
 }
-
-.border-bottom, .border, .border-top {
-    border-color: #BC0200!important;
-}
-
-.title-font {
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-}
-
-.custom-font {
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-    color: #2E0219;
-}
-
-.btn-primary {
-    background-color: #2E0219;
-}
-
-#aretha-name {
-    color: #FFF;
-    line-height: 3em;
-}
-
-
-#name-title {
-    background: #4A001F;
-}
+/*End footer styles*/
