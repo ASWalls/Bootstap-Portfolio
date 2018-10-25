@@ -28,6 +28,22 @@ header, .main-content {
  
 }
 
+.card {
+    background-color:transparent;
+    max-width: 370px;
+}
+
+.card-title {
+    color: #FFF;
+    line-height: 3em;
+}
+
+.card-title-box {
+    background: #2E0219;
+    
+    bottom: 50px;
+}
+
 .wrap {
     min-height: 100%;
     height: auto;
@@ -58,9 +74,12 @@ footer p {
     color: #2E0219;
 }
 
+.btn-primary {
+    background-color: #2E0219;
+}
+
 #aretha-name {
     color: #FFF;
-   
     line-height: 3em;
 }
 
